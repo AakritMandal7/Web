@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sun Realty</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ 
+  
+<header>
+  <div class="header-logo">
+    <img src="Images/demologo.png" alt="Sun Realty Logo" />
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home"><i class="fas fa-home"></i> Home</a>
+    <a href="#about"><i class="fas fa-building"></i> About</a>
+    <a href="#services"><i class="fas fa-concierge-bell"></i> Services</a>
+    <a href="#properties"><i class="fas fa-city"></i> Properties</a>
+    <a href="#why-choose-us"><i class="fas fa-star"></i> Why Us</a>
+    <a href="#contact"><i class="fas fa-phone-alt"></i> Contact</a>
+  </nav>
+
+  <div class="header-call">
+    <i class="fas fa-phone-alt"></i> Call Now
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</header>
+
+
+
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="Images/hero-bg.jpg" alt="Background" class="bg-image" />
+    <div class="hero-content">
+      <h1>Your Trusted Partner in Real Estate</h1>
+      <p>Authorized Channel Partner for Leading Developers. Find the perfect property that matches your preferences and budget.</p>
+      <a href="#" class="hero-btn">Explore Our Properties</a>
+    </div>
+  </section>
+
+
+<section class="about-us">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Sun Realty is a trusted real estate channel partner based in Mumbai. With years of expertise in the industry, we are proud to represent renowned developers and offer our clients exclusive access to premium properties.
+        </p>
+        <p>
+          Whether you're looking to buy your first home or invest in luxury real estate, we guide you through the entire process with personalized service and deep market knowledge.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-section" id="services">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">
+      At Sun Realty, we offer a range of services to meet your real estate needs. Our team of experts is here to help you find the perfect property that matches your preferences and budget. Here’s what we offer:
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Property Sales</h3>
+        <p>We help you find the perfect property, whether it's a new home, an investment, or a commercial space. As an authorized channel partner, we offer properties from the most renowned developers.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Consultation & Advisory</h3>
+        <p>Not sure where to start? Our expert consultants will walk you through your options, explain the buying process, and offer valuable insights to help you make informed decisions.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Investment Opportunities</h3>
+        <p>Looking to invest in real estate? We provide tailored investment strategies based on your goals, guiding you through the process to maximize returns.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Property Management</h3>
+        <p>From finding tenants to maintenance and property upkeep, we offer full property management services to ensure your real estate assets are always in top condition.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="featured-properties">
+  <div class="container">
+    <h2 class="section-title">Featured Properties</h2>
+    <p class="section-subtitle">Browse through some of our most popular listings. Whether you're looking for a cozy apartment or a luxurious villa, we’ve got options to suit every need.</p>
+
+    <div class="property-grid">
+      <div class="property-card">
+        <a href="#project-details">
+          <img src="images/property1.jpg" alt="Property 1" class="property-img" />
+        </a>
+        <div class="property-info">
+          <h3>3 BHK Sea View Apartment</h3>
+          <p>Located in Worli, Mumbai. Spacious, modern, and perfect for families.</p>
+          <span class="price">₹3.25 Cr</span>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <a href="#project-details">
+          <img src="images/property2.jpg" alt="Property 2" class="property-img" />
+        </a>
+        <div class="property-info">
+          <h3>4 BHK Premium Tower</h3>
+          <p>Luxury tower in Bandra East. Great connectivity and amenities.</p>
+          <span class="price">₹4.80 Cr</span>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <a href="#project-details">
+          <img src="images/hero-bg.jpg" alt="Property 3" class="property-img" />
+        </a>
+        <div class="property-info">
+          <h3>5 BHK Villa with Garden</h3>
+          <p>Independent villa in Powai with private garden and parking.</p>
+          <span class="price">₹6.75 Cr</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="center-btn">
+      <a href="all-properties.html" class="see-all-btn">See All Properties</a>
+    </div>
+  </div>
+</section>
+
+<section class="why-choose-us-section relative py-20 bg-[#111] overflow-hidden text-white">
+  <!-- Floating blurred golden dots -->
+  <div class="absolute top-0 left-0 w-full h-full pointer-events-none z-0">
+    <div class="dot-animation absolute w-40 h-40 bg-yellow-400 rounded-full top-10 left-10 blur-3xl opacity-20 animate-pulse"></div>
+    <div class="dot-animation absolute w-32 h-32 bg-yellow-600 rounded-full bottom-20 right-10 blur-2xl opacity-10 animate-bounce"></div>
+  </div>
+
+  <div class="container relative z-10 mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold text-center text-yellow-400 mb-16">Why Choose Us?</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+      <!-- Card 1 -->
+      <div class="bg-[#1a1a1a] border border-yellow-800 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-2xl font-semibold mb-3 text-yellow-300">Authorized Channel Partner</h3>
+        <p class="text-gray-300">We are officially partnered with top-tier developers, ensuring exclusive access to premium properties.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-[#1a1a1a] border border-yellow-800 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-2xl font-semibold mb-3 text-yellow-300">Expert Guidance</h3>
+        <p class="text-gray-300">Our team brings years of experience, guiding you through every step of your real estate journey.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-[#1a1a1a] border border-yellow-800 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-2xl font-semibold mb-3 text-yellow-300">Personalized Solutions</h3>
+        <p class="text-gray-300">We take time to understand your needs and provide tailored recommendations that suit your lifestyle.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-[#1a1a1a] border border-yellow-800 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="text-2xl font-semibold mb-3 text-yellow-300">Transparency & Trust</h3>
+        <p class="text-gray-300">Clear communication and honesty are our core values. You’ll never be in the dark about your investment.</p>
+      </div>
+
+      <!-- Card 5 Full Width -->
+      <div class="bg-[#1a1a1a] border border-yellow-800 rounded-2xl shadow-xl p-6 hover:scale-[1.03] transition-transform duration-300 md:col-span-2" data-aos="fade-up" data-aos-delay="500">
+        <h3 class="text-2xl font-semibold mb-3 text-yellow-300">Local Knowledge</h3>
+        <p class="text-gray-300">As Mumbai locals, we provide insights into neighborhoods, future developments, and market trends.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch for site visits, availability, and pricing.</p>
+      <div class="contact-wrapper">
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+          <button type="submit">Send Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Phone Icon -->
+  <a href="tel:+919876543210" class="floating-phone" title="Call Now">
+    <img src="Images/PHP.png" alt="Call" />
+  </a>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <img src="Images/demologo.png" alt="Runwal Logo" class="footer-logo" />
+    </div>
+    <div class="footer-right">
+      <div class="footer-buttons">
+        <a href="#about" class="footer-btn">About Us</a>
+        <a href="#privacy" class="footer-btn">Privacy Policy</a>
+        <a href="#terms" class="footer-btn">Terms & Conditions</a>
+        <a href="#contact" class="footer-btn">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+  <script defer src="js/script.js"></script>
+   <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ once: true });
+</script>
+
+</body>
+</html>
